@@ -1,0 +1,25 @@
+*	{ 
+font-family: helvetica, arial, sans-serif;}
+
+h1,p {
+	color: red;
+	font-size: 30px;}
+
+.parag {
+	color: green;}
+.wrap	{
+	color: yellow;}
+
+#Heading {	font-size: 25px;}
+
+a[href="http://google.com"] {color:red;font-size: 20px;}
+
+a[href="http://yandex.ru"] {color: pink;font-size: 20px;}
+
+.kontener p { background:black; }
+
+.kontener h3 {background:blue;}
+.kontener > p{text-decoration: line-through;}
+#Heading + span {color: yellow;}
+a:hover {text-decoration: none;}
+h1::first-letter {color: #d2d2d2}
